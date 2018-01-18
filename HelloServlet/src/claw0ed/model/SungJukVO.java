@@ -62,7 +62,7 @@ public class SungJukVO {
 	}
 
 	public int getTot() {
-		tot = kor + eng + mat;
+		// tot = kor + eng + mat;
 		return tot;
 	}
 
@@ -71,7 +71,7 @@ public class SungJukVO {
 	}
 
 	public double getAvrg() {
-		avrg = (double) tot / 3;
+		// avrg = (double) tot / 3;
 		return avrg;
 	}
 
@@ -81,7 +81,7 @@ public class SungJukVO {
 
 	public String getGrd() {
 		
-		String grd = "가";
+		/* String grd = "가";
 		switch( (int) avrg / 10 ) {
 		case 10: 
 		case 9:
@@ -96,7 +96,7 @@ public class SungJukVO {
 		case 6:
 			grd = "양";
 			break;
-		}
+		} */
 		
 		return grd;
 	}
