@@ -5,18 +5,12 @@
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  
-  <!-- 서블릿 클래스 구동을 위한 매핑 정의 -->
-  <!-- 매핑할 서블릿 클래스 정의 -->
   <servlet>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<servlet-class>claw0ed.HelloServlet</servlet-class>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>claw0ed.HelloServlet</servlet-class>
   </servlet>
-  
-  <!-- 서블릿에 대한 매핑정보 정의 -->
   <servlet-mapping>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<url-pattern>/HelloServlet</url-pattern>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
   </servlet-mapping>
-  
 </web-app>
