@@ -37,7 +37,7 @@ public class JoinServlet extends HttpServlet {
 		member.setEmail(email);
 		
 		req.setAttribute("member", member);
-		RequestDispatcher view = req.getRequestDispatcher("/example/joinResult.jsp");
+		RequestDispatcher view = req.getRequestDispatcher("/joinResult.jsp");
 		view.forward(req, res);
 		
 	}
